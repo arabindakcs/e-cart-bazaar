@@ -1,0 +1,91 @@
+.grid-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+label {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+input {
+  display: block;
+  width: 50%;
+  padding: 8px;
+}
+
+.field {
+  padding: 5px;
+}
+
+form {
+  text-align: left;
+  padding: 50px;
+}
+
+h5 {
+  color: red;
+}
+
+.signup {
+  background-color: #d10256;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 10px 24px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.grid-item.one {
+  margin-top: 60px;
+}
+
+/*Signup Mobile Responsive Sec*/
+
+@media only screen and (max-width: 650px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+  .grid-item.one {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  form {
+    padding: 0px;
+  }
+  .field {
+    text-align: center;
+  }
+
+  .field label {
+    display: none;
+  }
+  .field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+  .signup {
+    margin-top: -20px;
+  }
+  .field span {
+    display: none;
+  }
+}
+
+/*Responsive for Tablet*/
+@media only screen and (min-width: 650px) and (max-width: 900px) {
+  input {
+    width: 80%;
+  }
+}

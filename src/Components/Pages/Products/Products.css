@@ -1,0 +1,150 @@
+.product-main {
+  display: flex;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.card-title {
+  min-height: 60px;
+}
+
+.sidebar-sec {
+  min-width: 250px;
+  background-color: #ddd;
+}
+
+.sidebar-button {
+  display: block;
+  text-decoration: none;
+  border-bottom: 1px solid #4d4d4d;
+  padding: 10px;
+  font-size: 0.9rem;
+  width: 100%;
+  background-color: transparent;
+  text-align: left;
+  color: #4d4d4d;
+  border-radius: 0;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid #eee;
+  font-size: 18px;
+}
+
+.product-sec {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.card-wrapper {
+  display: grid;
+  padding: 20px 0;
+  box-shadow: rgba(17, 17, 26, 0.5) 0px 1px 0px;
+}
+
+.image-wrapper {
+  width: 1000%;
+  height: 100%;
+  max-width: 200px;
+  max-height: 150px;
+}
+
+.card-description {
+  margin: 20px 0;
+  padding: 5px 5px;
+  background-color: #ccc;
+  text-overflow: ellipsis;
+  overflow: auto;
+  height: 4.8rem;
+}
+
+.card-price-sec {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card-price {
+  font-size: 18px;
+}
+
+button.card-buy-button {
+  display: block;
+  border-radius: 2px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #eee;
+  background-color: #d42559;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*Product Mobile Width Sec*/
+
+@media only screen and (max-width: 650px) {
+  section.sidebar-sec {
+    display: none;
+  }
+  .product-sec {
+    grid-template-columns: auto;
+    grid-gap: 0px;
+    padding: 0px;
+  }
+  .card-wrapper {
+    display: grid;
+    padding: 1rem 0rem;
+  }
+
+  .image-wrapper {
+    max-width: 100px;
+    max-height: 80px;
+  }
+  .card-title {
+    min-height: 30px;
+  }
+
+  h3.card-title {
+    font-size: 14px;
+  }
+  p.card-description {
+    font-size: 14px;
+    margin: 5px 0;
+    height: 50px;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+  }
+  .card-price {
+    font-size: 14px;
+    width: 240px;
+    margin-right: -40px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  button.card-buy-button {
+    font-size: 14px;
+    padding: 5px;
+    width: 100px;
+    margin-top: 10px;
+  }
+}
+
+/*For Tab Screen */
+
+@media only screen and (min-width: 650px) and (max-width: 900px) {
+  .product-sec {
+    grid-template-columns: auto auto;
+    grid-gap: 0px;
+    padding: 0px;
+  }
+  .sidebar-sec {
+    min-width: 200px;
+  }
+  .card-wrapper {
+    padding: 20px;
+  }
+}

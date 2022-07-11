@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/e-cart-bazaar/static/css/main.79d55f9c.css",
+    "main.js": "/e-cart-bazaar/static/js/main.e16146e4.js",
+    "static/js/787.d6fe38e8.chunk.js": "/e-cart-bazaar/static/js/787.d6fe38e8.chunk.js",
+    "static/media/logo.png": "/e-cart-bazaar/static/media/logo.8481ee8780730d370ae0.png",
+    "index.html": "/e-cart-bazaar/index.html",
+    "static/media/cart.svg": "/e-cart-bazaar/static/media/cart.efe57ae5eab3f35ef3c20b6ace101cd0.svg",
+    "main.79d55f9c.css.map": "/e-cart-bazaar/static/css/main.79d55f9c.css.map",
+    "main.e16146e4.js.map": "/e-cart-bazaar/static/js/main.e16146e4.js.map",
+    "787.d6fe38e8.chunk.js.map": "/e-cart-bazaar/static/js/787.d6fe38e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79d55f9c.css",
+    "static/js/main.e16146e4.js"
+  ]
+}
